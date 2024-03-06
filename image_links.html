@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        /* CSS for basic styling (you can modify as needed) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header, nav, section {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        section {
+            margin-top: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
+           
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            /* width: 200px;
+            height: 200px; */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Image Links</h1>
+    <p>Explore images related to technology, nature, and food.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#menu">Menu</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to our technology-themed section!</p>
+    <a href="https://unsplash.com/photos/person-holding-space-gray-iphone-7-A6JxK37IlPo" alt="iphone">
+    </a>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://example.com/nature-image1.jpg">
+            <img src="/image-one/photo-1510557880182-3d4d3cba35a5.avif" alt="iphone">
+        </a>
+        <a href="https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo">
+            <img src="/image-one/premium_photo-1676998930667-cab56c8fa602.avif" width="200" height="200" alt="using macbook">
+        </a>
+        <a href="https://unsplash.com/photos/a-man-sitting-on-a-bench-using-a-laptop-computer-9tjwNj8Eubs">
+            <img src="/image-one/photo-1498050108023-c5249f4df085.avif" alt="macbook">
+        </a>
+        <!-- Add more nature images as needed -->
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://unsplash.com/photos/one-red-apple-CoqJGsFVJtM">apple</a></li>
+        <li><a href="https://unsplash.com/photos/yellow-mango-7iLlgS5o09c">mango</a></li>
+        <li><a href="https://unsplash.com/photos/a-close-up-of-a-yellow-and-orange-background-caH-ZLrisZA">orange</a></li>
+        <!-- Add more food items and their corresponding image links as needed -->
+    </ul>
+</section>
+
+</body>
+</html>
