@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .header-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    color: white;
+  }
+  
+  /* Introduction Section */
+  .introduction {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .intro-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Skills Display */
+  .skills {
+    display: flex;
+    background-color: #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skills ul {
+    list-style: none;
+  }
+  
+  .skills li {
+    border: 1px solid #999;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Information */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    margin-bottom: 5px;
+  }
+  
